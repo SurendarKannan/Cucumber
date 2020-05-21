@@ -5273,3 +5273,4 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact io.github.bon
 2020-05-22 02:30:18,742 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-05-22 02:30:18,743 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\babubs\Workspace\eclipse-workspace\SimpleProject\src\main\resources
 2020-05-22 02:30:18,748 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-22 02:30:18,748 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\babubs\Workspace\eclipse-workspace\SimpleProject\src\test\resources
