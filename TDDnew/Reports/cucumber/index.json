@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Getting home page after login",
+        "description": "",
+        "id": "verifying-the-functionality-of-facebook-login;getting-home-page-after-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24768076194,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launching the facebook URL",
+            "match": {
+              "location": "StepDefinition.Launching_the_facebook_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 778216881,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Entering the valid credentials",
+            "match": {
+              "location": "StepDefinition.Entering_the_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 162874767,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Clicking the login button",
+            "match": {
+              "location": "StepDefinition.Clicking_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20929617875,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verifying the homepage",
+            "match": {
+              "location": "StepDefinition.Verifying_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying the functionality of facebook login",
+    "description": "",
+    "id": "verifying-the-functionality-of-facebook-login",
+    "keyword": "Feature",
+    "uri": "./FeatureFile/login.feature"
+  }
+]

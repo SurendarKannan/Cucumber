@@ -1,0 +1,65 @@
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("./FeatureFile/login.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Verifying the functionality of facebook login",
+  "description": "",
+  "id": "verifying-the-functionality-of-facebook-login",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "line": 3,
+  "name": "Getting home page after login",
+  "description": "",
+  "id": "verifying-the-functionality-of-facebook-login;getting-home-page-after-login",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 5,
+  "name": "Launching the facebook URL",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "Entering the valid credentials",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "Clicking the login button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "Verifying the homepage",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinition.Launching_the_facebook_URL()"
+});
+formatter.result({
+  "duration": 12212066163,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinition.Entering_the_valid_credentials()"
+});
+formatter.result({
+  "duration": 527669158,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinition.Clicking_the_login_button()"
+});
+formatter.result({
+  "duration": 165410559,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinition.Verifying_the_homepage()"
+});
+formatter.result({
+  "duration": 9291016233,
+  "status": "passed"
+});
+});

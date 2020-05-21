@@ -1,0 +1,19 @@
+package org.Oops;
+
+public class School {
+	
+	String email;
+	double rollno;
+	
+	void show(String email, double rollno) {
+	
+		System.out.println(email+""+ rollno);
+	}
+
+	public static void main(String[] args) {
+
+		School s  = new School();
+		s.show("sj@gmail.com", 1500); 
+	}
+
+}
